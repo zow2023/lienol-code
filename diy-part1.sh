@@ -19,4 +19,5 @@
 #git clone -b luci https://github.com/pexcn/openwrt-chinadns-ng.git package/luci-app-chinadns-ng
 #git clone https://github.com/pexcn/openwrt-chinadns-ng.git package/chinadns-ng
 #git clone https://github.com/sbwml/luci-app-mosdns -b v5 package/mosdns
-#git clone https://github.com/sbwml/v2ray-geodata package/v2ray-geodata
+git clone https://github.com/sbwml/v2ray-geodata package/v2ray-geodata
+git clone https://github.com/destan19/OpenAppFilter package/OpenAppFilter
