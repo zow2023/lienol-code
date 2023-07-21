@@ -21,5 +21,5 @@
 #git clone https://github.com/sbwml/luci-app-mosdns -b v5 package/mosdns
 git clone https://github.com/sbwml/v2ray-geodata package/v2ray-geodata
 git clone https://github.com/destan19/OpenAppFilter package/OpenAppFilter
-git clone https://github.com/jerrykuku/lua-maxminddb.git  #git lua-maxminddb 依赖
+git clone https://github.com/jerrykuku/lua-maxminddb.git  
 git clone https://github.com/jerrykuku/luci-app-vssr.git  
