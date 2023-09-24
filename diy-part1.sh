@@ -25,4 +25,3 @@
 #git clone https://github.com/jerrykuku/luci-app-vssr.git   
 pushd feeds/packages/lang
 rm -rf golang && svn co https://github.com/openwrt/packages/branches/openwrt-23.05/lang/golang
-popd
