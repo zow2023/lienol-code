@@ -23,4 +23,4 @@
 #git clone https://github.com/destan19/OpenAppFilter package/OpenAppFilter 
 #git clone https://github.com/jerrykuku/lua-maxminddb.git   
 #git clone https://github.com/jerrykuku/luci-app-vssr.git   
-sed -i 's/ +libopenssl-legacy//g' feeds/helloworld/shadowsocksr-libev/Makefile
+
