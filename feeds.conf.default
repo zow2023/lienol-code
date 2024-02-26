@@ -6,7 +6,7 @@ src-git packages https://github.com/zow2023/lie-openwrt-packages.git;22.03
 #src-git other https://github.com/Lienol/openwrt-package.git;other
 #src-git kiddin9 https://github.com/kiddin9/openwrt-packages
 src-git kenzo https://github.com/kenzok8/openwrt-packages
-src-git small https://github.com/kenzok8/small
+src-git small https://github.com/zow2023/small
 
 #src-git helloworld https://github.com/fw876/helloworld.git;main
 #src-git shidahuilang https://github.com/shidahuilang/openwrt-package.git;Lienol
