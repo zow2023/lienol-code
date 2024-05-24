@@ -19,17 +19,17 @@ git clone https://github.com/kingyond/luci-app-accesscontrol-plus package/luci-a
 #rm -rf feeds/packages/net/{xray-core,v2ray-core,v2ray-geodata,sing-box}
 #git clone https://github.com/zow2023/openwrt_helloworld package/helloworld
 
-#rm -rf feeds/packages/net/chinadns-ng
-#rm -rf feeds/packages/net/xray-core
+rm -rf feeds/packages/net/chinadns-ng
+rm -rf feeds/packages/net/xray-core
 #git clone https://github.com/xiaorouji/openwrt-passwall.git package/passwall/luci
 #git clone https://github.com/xiaorouji/openwrt-passwall-packages.git package/passwall/packages
 #git clone https://github.com/xiaorouji/openwrt-passwall.git -b  luci-smartdns-dev package/passwall/luci
 #rm -rf feeds/package/helloworld
 #git clone https://github.com/fw876/helloworld.git -b master package/helloworld
 
-rm -rf feeds/luci/applications/luci-app-mosdns
-rm -rf feeds/packages/net/{alist,adguardhome,mosdns,xray*,v2ray*,v2ray*,sing*,smartdns}
-rm -rf feeds/packages/utils/v2dat
+#rm -rf feeds/luci/applications/luci-app-mosdns
+#rm -rf feeds/packages/net/{alist,adguardhome,mosdns,xray*,v2ray*,v2ray*,sing*,smartdns}
+#rm -rf feeds/packages/utils/v2dat
 
 rm -rf feeds/packages/lang/golang
 git clone https://github.com/kenzok8/golang feeds/packages/lang/golang
