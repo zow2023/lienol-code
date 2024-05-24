@@ -8,12 +8,13 @@
 # https://github.com/P3TERX/Actions-OpenWrt
 # File name: diy-part2.sh
 # Description: OpenWrt DIY script part 2 (After Update feeds)
-#sed -i 's/ +libopenssl-legacy//g' feeds/helloworld/shadowsocksr-libev/Makefile
-#
+
+sed -i 's/ +libopenssl-legacy//g' feeds/helloworld/shadowsocksr-libev/Makefile
+
 #git clone https://github.com/gngpp/luci-theme-design.git -b js package/luci-theme-design
 #git clone https://github.com/gngpp/luci-app-design-config.git package/luci-app-design-config
 git clone https://github.com/kingyond/luci-app-accesscontrol-plus package/luci-app-accesscontrol-plus
-#git clone https://github.com/kiddin9/luci-app-dnsfilter package/luic-app-dnsfilter
+git clone https://github.com/kiddin9/luci-app-dnsfilter package/luic-app-dnsfilter
 
 rm -rf feeds/packages/net/chinadns-ng
 rm -rf feeds/packages/net/xray-core
@@ -22,8 +23,8 @@ rm -rf feeds/packages/net/xray-core
 #rm -rf feeds/packages/net/{xray-core,v2ray-core,v2ray-geodata,sing-box}
 git clone https://github.com/zow2023/openwrt_helloworld
 
-#git clone https://github.com/xiaorouji/openwrt-passwall.git package/passwall/luci
-#git clone https://github.com/xiaorouji/openwrt-passwall-packages.git package/passwall/packages
+git clone https://github.com/xiaorouji/openwrt-passwall.git package/passwall/luci
+git clone https://github.com/xiaorouji/openwrt-passwall-packages.git package/passwall/packages
 #git clone https://github.com/xiaorouji/openwrt-passwall.git -b  luci-smartdns-dev package/passwall/luci
 #rm -rf feeds/package/helloworld
 #git clone https://github.com/fw876/helloworld.git -b master package/helloworld
