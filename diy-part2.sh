@@ -26,8 +26,8 @@ git clone https://github.com/xiaorouji/openwrt-passwall-packages.git package/pas
 #git clone https://github.com/fw876/helloworld.git -b master package/helloworld
 
 # 移除 openwrt feeds 自带的核心包
-#rm -rf feeds/packages/net/{xray-core,v2ray-core,v2ray-geodata,sing-box}
-#git clone https://github.com/zow2023/openwrt_helloworld
+rm -rf feeds/packages/net/{xray-core,v2ray-core,v2ray-geodata,sing-box}
+git clone https://github.com/zow2023/openwrt_helloworld
 
 #rm -rf feeds/luci/applications/luci-app-mosdns
 #rm -rf feeds/packages/net/{alist,adguardhome,mosdns,xray*,v2ray*,v2ray*,sing*,smartdns}
