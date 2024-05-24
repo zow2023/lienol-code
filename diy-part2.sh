@@ -15,11 +15,11 @@
 git clone https://github.com/kingyond/luci-app-accesscontrol-plus package/luci-app-accesscontrol-plus
 #git clone https://github.com/kiddin9/luci-app-dnsfilter package/luic-app-dnsfilter
 
-#rm -rf feeds/packages/net/chinadns-ng
-#rm -rf feeds/packages/net/xray-core
+rm -rf feeds/packages/net/chinadns-ng
+rm -rf feeds/packages/net/xray-core
 
 # 移除 openwrt feeds 自带的核心包
-rm -rf feeds/packages/net/{xray-core,v2ray-core,v2ray-geodata,sing-box}
+#rm -rf feeds/packages/net/{xray-core,v2ray-core,v2ray-geodata,sing-box}
 git clone https://github.com/zow2023/openwrt_helloworld
 
 #git clone https://github.com/xiaorouji/openwrt-passwall.git package/passwall/luci
