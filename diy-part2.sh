@@ -15,7 +15,7 @@ sed -i 's/ +libopenssl-legacy//g' feeds/helloworld/shadowsocksr-libev/Makefile
 git clone https://github.com/kingyond/luci-app-accesscontrol-plus package/luci-app-accesscontrol-plus
 
 rm -rf feeds/packages/net/chinadns-ng
-rm -rf feeds/packages/net/xray-core
+#rm -rf feeds/packages/net/xray-core
 rm -rf feeds/packages/lang/golang
 git clone https://github.com/kenzok8/golang feeds/packages/lang/golang
 #git clone https://github.com/sbwml/packages_lang_golang -b 22.x feeds/packages/lang/golang
