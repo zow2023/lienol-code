@@ -15,7 +15,7 @@
 #git clone https://github.com/gngpp/luci-app-design-config.git package/luci-app-design-config
 git clone https://github.com/kingyond/luci-app-accesscontrol-plus package/luci-app-accesscontrol-plus
 git clone https://github.com/kiddin9/luci-app-dnsfilter package/luic-app-dnsfilter
-git clone https://github.com/animegasan/luci-app-quickstart package/luci-app-quickstart
+#git clone https://github.com/animegasan/luci-app-quickstart package/luci-app-quickstart
 
 #rm -rf feeds/packages/net/chinadns-ng
 #rm -rf feeds/packages/net/xray-core
