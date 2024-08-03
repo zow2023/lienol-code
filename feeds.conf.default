@@ -1,4 +1,4 @@
-src-git kenzo https://github.com/kenzok8/openwrt-packages
+#src-git kenzo https://github.com/kenzok8/openwrt-packages
 src-git small https://github.com/zow2023/small
 src-git packages https://github.com/zow2023/lienol-openwrt-packages.git;master
 src-git luci https://github.com/Lienol/openwrt-luci.git;17.01-dev
