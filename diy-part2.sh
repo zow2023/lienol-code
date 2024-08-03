@@ -13,9 +13,15 @@
 
 #git clone https://github.com/gngpp/luci-theme-design.git -b js package/luci-theme-design
 #git clone https://github.com/gngpp/luci-app-design-config.git package/luci-app-design-config
-git clone https://github.com/kingyond/luci-app-accesscontrol-plus package/luci-app-accesscontrol-plus
-git clone https://github.com/kiddin9/luci-app-dnsfilter package/luic-app-dnsfilter
+#git clone https://github.com/kingyond/luci-app-accesscontrol-plus package/luci-app-accesscontrol-plus
+#git clone https://github.com/kiddin9/luci-app-dnsfilter package/luic-app-dnsfilter
 #git clone https://github.com/animegasan/luci-app-quickstart package/luci-app-quickstart
+git clone https://github.com/gSpotx2f/luci-app-cpu-status package/luci-app-cpu-status
+git clone https://github.com/gSpotx2f/luci-app-cpu-perf package/luci-app-cpu-perf
+git clone https://github.com/gSpotx2f/luci-app-interfaces-statistics package/luci-app-interfaces-statistics
+git clone https://github.com/gSpotx2f/luci-app-temp-status package/luci-app-temp-status
+git clone https://github.com/muink/luci-app-tinyfilemanager package/luci-app-tinyfilemanager
+git clone https://github.com/muink/luci-app-tn-netports package/luci-app-tn-netports
 
 #rm -rf feeds/packages/net/chinadns-ng
 #rm -rf feeds/packages/net/xray-core
