@@ -25,6 +25,7 @@ git clone https://github.com/muink/luci-app-tn-netports package/luci-app-tn-netp
 
 #rm -rf feeds/packages/net/chinadns-ng
 #rm -rf feeds/packages/net/xray-core
+git clone https://github.com/QiuSimons/luci-app-daed package/dae
 
 #git clone https://github.com/xiaorouji/openwrt-passwall.git package/passwall/luci
 #git clone https://github.com/xiaorouji/openwrt-passwall-packages.git package/passwall/packages
