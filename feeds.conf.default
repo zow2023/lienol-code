@@ -1,4 +1,4 @@
-src-git small https://github.com/zow2023/small
+# src-git small https://github.com/zow2023/small
 # src-git packages https://github.com/zow2023/lienol-openwrt-packages.git^d420e2e9361890523b4d2d682e7bdf2a43205a0e
 # src-git packages https://github.com/zow2023/lienol-openwrt-packages.git;master
 # src-git luci https://github.com/Lienol/openwrt-luci.git;17.01-dev
@@ -12,13 +12,12 @@ src-git small https://github.com/zow2023/small
 # src-git other https://github.com/Lienol/openwrt-package.git;other
 #src-git kenzo https://github.com/kenzok8/openwrt-packages
 
-src-git packages https://github.com/zow2023/lienol-openwrt-packages.git;24.10
-src-git luci https://github.com/Lienol/openwrt-luci.git;24.10
-src-git routing https://github.com/openwrt/routing.git;openwrt-24.10
-src-git telephony https://github.com/openwrt/telephony.git;openwrt-24.10
-src-git lienol https://github.com/Lienol/openwrt-package.git;main
-src-git other https://github.com/Lienol/openwrt-package.git;other
-
+src-git packages https://github.com/zow2023/imm-packages .git;openwrt-24.10
+#src-git packages https://git.openwrt.org/feed/packages.git;openwrt-24.10
+#src-git luci https://git.openwrt.org/project/luci.git;openwrt-24.10
+src-git luci https://github.com/immortalwrt/luci.git;openwrt-24.10
+src-git routing https://git.openwrt.org/feed/routing.git;openwrt-24.10
+src-git telephony https://git.openwrt.org/feed/telephony.git;openwrt-24.10
 
 
 
