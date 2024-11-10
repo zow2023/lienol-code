@@ -11,7 +11,7 @@
 
 #sed -i 's/ +libopenssl-legacy//g' feeds/helloworld/shadowsocksr-libev/Makefile
 
-git clone https://github.com/jerrykuku/luci-theme-argon package/luci-theme-argon
+# git clone https://github.com/jerrykuku/luci-theme-argon package/luci-theme-argon
 git clone https://github.com/jerrykuku/luci-app-argon-config package/luci-app-argon-config
 #git clone https://github.com/kingyond/luci-app-accesscontrol-plus package/luci-app-accesscontrol-plus
 #git clone https://github.com/kiddin9/luci-app-dnsfilter package/luic-app-dnsfilter
@@ -23,6 +23,8 @@ git clone https://github.com/jerrykuku/luci-app-argon-config package/luci-app-ar
 #git clone https://github.com/gSpotx2f/luci-app-temp-status package/luci-app-temp-status
 # git clone https://github.com/muink/luci-app-tinyfilemanager package/luci-app-tinyfilemanager
 #git clone https://github.com/muink/luci-app-tn-netports package/luci-app-tn-netports
+git clone https://github.com/sbwml/autocore-arm package/autocore-arm
+git clone https://github.com/sbwml/luci-theme-argon package/luci-theme-argon
 
 #rm -rf feeds/packages/net/chinadns-ng
 #rm -rf feeds/packages/net/xray-core
