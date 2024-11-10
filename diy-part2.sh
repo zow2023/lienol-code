@@ -23,13 +23,16 @@ git clone https://github.com/gSpotx2f/luci-app-cpu-perf package/luci-app-cpu-per
 git clone https://github.com/gSpotx2f/luci-app-temp-status package/luci-app-temp-status
 git clone https://github.com/muink/luci-app-tinyfilemanager package/luci-app-tinyfilemanager
 git clone https://github.com/muink/luci-app-tn-netports package/luci-app-tn-netports
-rm -rf feeds/other/lean/autocore-arm
+# rm -rf feeds/other/lean/autocore-arm
 git clone https://github.com/sbwml/autocore-arm package/autocore-arm
 git clone https://github.com/sbwml/luci-theme-argon package/luci-theme-argon
 git clone https://github.com/sirpdboy/luci-app-parentcontrol package/luci-app-parentcontrol
 
 #rm -rf feeds/packages/net/chinadns-ng
 #rm -rf feeds/packages/net/xray-core
+
+rm -rf feeds/luci/applications/luci-app-dae
+rm -rf feeds/luci/applications/luci-app-daed
 
 git clone https://github.com/QiuSimons/luci-app-daed package/dae
 
