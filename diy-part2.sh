@@ -33,7 +33,8 @@ git clone https://github.com/sirpdboy/luci-app-parentcontrol package/luci-app-pa
 
 rm -rf feeds/luci/applications/luci-app-dae
 rm -rf feeds/luci/applications/luci-app-daed
-
+rm -rf feeds/packages/net/dae
+rm -rf feeds/packages/net/daed
 git clone https://github.com/QiuSimons/luci-app-daed package/dae
 
 #git clone https://github.com/xiaorouji/openwrt-passwall.git package/passwall/luci
