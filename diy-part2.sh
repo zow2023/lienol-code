@@ -37,8 +37,8 @@ git clone https://github.com/muink/luci-app-einat.git package/luci-app-einat
 
 git clone https://github.com/QiuSimons/luci-app-daed package/dae
 
-#git clone https://github.com/xiaorouji/openwrt-passwall.git package/passwall/luci
-#git clone https://github.com/xiaorouji/openwrt-passwall-packages.git package/passwall/packages
+git clone https://github.com/xiaorouji/openwrt-passwall.git package/passwall/luci
+git clone https://github.com/xiaorouji/openwrt-passwall-packages.git package/passwall/packages
 #git clone https://github.com/xiaorouji/openwrt-passwall.git -b  luci-smartdns-dev package/passwall/luci
 #rm -rf feeds/package/helloworld
 #git clone https://github.com/fw876/helloworld.git -b master package/helloworld
