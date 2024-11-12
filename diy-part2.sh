@@ -29,6 +29,9 @@ git clone https://github.com/sbwml/autocore-arm package/autocore-arm
 git clone https://github.com/sbwml/luci-theme-argon package/luci-theme-argon
 git clone https://github.com/sirpdboy/luci-app-parentcontrol package/luci-app-parentcontrol
 
+git clone https://github.com/muink/openwrt-einat-ebpf.git package/einat-ebpf
+git clone https://github.com/muink/luci-app-einat.git package/luci-app-einat
+
 #rm -rf feeds/packages/net/chinadns-ng
 #rm -rf feeds/packages/net/xray-core
 
