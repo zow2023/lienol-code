@@ -11,8 +11,8 @@
 
 #sed -i 's/ +libopenssl-legacy//g' feeds/helloworld/shadowsocksr-libev/Makefile
 
-# git clone https://github.com/jerrykuku/luci-theme-argon package/luci-theme-argon
-# git clone https://github.com/jerrykuku/luci-app-argon-config package/luci-app-argon-config
+git clone https://github.com/jerrykuku/luci-theme-argon package/luci-theme-argon
+git clone https://github.com/jerrykuku/luci-app-argon-config package/luci-app-argon-config
 #git clone https://github.com/kingyond/luci-app-accesscontrol-plus package/luci-app-accesscontrol-plus
 #git clone https://github.com/kiddin9/luci-app-dnsfilter package/luic-app-dnsfilter
 #git clone https://github.com/animegasan/luci-app-quickstart package/luci-app-quickstart
@@ -26,7 +26,7 @@ git clone https://github.com/muink/luci-app-tn-netports package/luci-app-tn-netp
 # rm -rf feeds/other/lean/autocore-arm
 git clone https://github.com/xiaoxiao29/luci-app-adguardhome package/luci-app-adguardhome
 # git clone https://github.com/sbwml/autocore-arm package/autocore-arm
-git clone https://github.com/sbwml/luci-theme-argon package/luci-theme-argon
+
 git clone https://github.com/sirpdboy/luci-app-parentcontrol package/luci-app-parentcontrol
 
 # git clone https://github.com/muink/openwrt-einat-ebpf.git package/einat-ebpf
