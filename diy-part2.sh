@@ -25,6 +25,7 @@ git clone https://github.com/jerrykuku/luci-app-argon-config package/luci-app-ar
 # git clone https://github.com/muink/luci-app-tn-netports package/luci-app-tn-netports
 # rm -rf feeds/other/lean/autocore-arm
 git clone https://github.com/xiaoxiao29/luci-app-adguardhome package/luci-app-adguardhome
+git clone https://github.com/sbwml/luci-app-filemanager package/luci-app-filemanager
 # git clone https://github.com/sbwml/autocore-arm package/autocore-arm
 
 git clone https://github.com/sirpdboy/luci-app-parentcontrol package/luci-app-parentcontrol
