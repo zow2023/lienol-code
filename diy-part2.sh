@@ -24,8 +24,8 @@ git clone https://github.com/gSpotx2f/luci-app-temp-status package/luci-app-temp
 #git clone https://github.com/gSpotx2f/luci-app-interfaces-statistics package/luci-app-interfaces-statistics
 # git clone https://github.com/muink/luci-app-tinyfilemanager package/luci-app-tinyfilemanager
 
-rm -rf feeds/other/lean/luci-app-turboacc
-# rm -rf feeds/other/lean/autocore-arm
+#rm -rf feeds/other/lean/luci-app-turboacc
+rm -rf feeds/other/lean/vlmcsd
 
 git clone https://github.com/xiaoxiao29/luci-app-adguardhome package/luci-app-adguardhome
 git clone https://github.com/sbwml/luci-app-filemanager package/luci-app-filemanager
