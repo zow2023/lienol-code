@@ -1,19 +1,18 @@
 # src-git small https://github.com/zow2023/small
 # src-git packages https://github.com/zow2023/lienol-openwrt-packages.git^d420e2e9361890523b4d2d682e7bdf2a43205a0e
-# src-git packages https://github.com/zow2023/lienol-openwrt-packages.git;24.10
+src-git packages https://github.com/zow2023/lienol-openwrt-packages.git;24.10
 
 # src-git luci https://github.com/Lienol/openwrt-luci.git;17.01-dev
 # src-git routing https://github.com/openwrt/routing.git;openwrt-24.10
 # src-git telephony https://github.com/openwrt/telephony.git;openwrt-24.10
+# src-git lienol https://github.com/Lienol/openwrt-package.git;main
+# src-git other https://github.com/Lienol/openwrt-package.git;other
 ##src-git video https://github.com/openwrt/video.git
 ##src-git targets https://github.com/openwrt/targets.git
 ##src-git oldpackages http://git.openwrt.org/packages.git
 ##src-link custom /usr/src/openwrt/custom-feed
-# src-git lienol https://github.com/Lienol/openwrt-package.git;main
-# src-git other https://github.com/Lienol/openwrt-package.git;other
+
 ##src-git kenzo https://github.com/kenzok8/openwrt-packages
-
-
 
 #src-git helloworld https://github.com/fw876/helloworld.git;main
 #src-git shidahuilang https://github.com/shidahuilang/openwrt-package.git;Lienol
@@ -21,14 +20,3 @@
 
 #src-git kenzo https://github.com/kenzok8/openwrt-packages
 #src-git small https://github.com/kenzok8/small
-
-src-git lienol https://github.com/Lienol/openwrt-package.git;main
-src-git other https://github.com/Lienol/openwrt-package.git;other
-src-git packages https://github.com/Lienol/openwrt-packages.git;master
-src-git luci https://github.com/Lienol/openwrt-luci.git;master
-src-git routing https://github.com/openwrt/routing.git
-src-git telephony https://github.com/openwrt/telephony.git
-src-git video https://github.com/openwrt/video.git
-#src-git targets https://github.com/openwrt/targets.git
-#src-git oldpackages http://git.openwrt.org/packages.git
-#src-link custom /usr/src/openwrt/custom-feed
