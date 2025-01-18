@@ -1,4 +1,4 @@
-# src-git small https://github.com/zow2023/small
+src-git small https://github.com/zow2023/small
 # src-git packages https://github.com/zow2023/lienol-openwrt-packages.git^d420e2e9361890523b4d2d682e7bdf2a43205a0e
 src-git packages https://github.com/zow2023/lienol-openwrt-packages.git;24.10
 
