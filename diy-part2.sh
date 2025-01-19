@@ -28,10 +28,10 @@ git clone https://github.com/gSpotx2f/luci-app-temp-status package/luci-app-temp
 #rm -rf feeds/other/lean/vlmcsd
 
 git clone https://github.com/xiaoxiao29/luci-app-adguardhome package/luci-app-adguardhome
-git clone https://github.com/sbwml/luci-app-filemanager package/luci-app-filemanager
+# git clone https://github.com/sbwml/luci-app-filemanager package/luci-app-filemanager
 # git clone https://github.com/sbwml/autocore-arm package/autocore-arm
 
-git clone https://github.com/sirpdboy/luci-app-parentcontrol package/luci-app-parentcontrol
+# git clone https://github.com/sirpdboy/luci-app-parentcontrol package/luci-app-parentcontrol
 
 # git clone https://github.com/muink/openwrt-einat-ebpf.git package/einat-ebpf
 # git clone https://github.com/muink/luci-app-einat.git package/luci-app-einat
