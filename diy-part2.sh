@@ -26,7 +26,7 @@ git clone https://github.com/gSpotx2f/luci-app-temp-status package/luci-app-temp
 git clone https://github.com/gSpotx2f/luci-app-interfaces-statistics package/luci-app-interfaces-statistics
 # git clone https://github.com/muink/luci-app-tinyfilemanager package/luci-app-tinyfilemanager
 
-rm -rf feeds/other/lean/luci-app-turboacc
+#rm -rf feeds/other/lean/luci-app-turboacc
 # rm -rf feeds/other/lean/vlmcsd
 
 git clone https://github.com/xiaoxiao29/luci-app-adguardhome package/luci-app-adguardhome
@@ -51,7 +51,7 @@ git clone https://github.com/xiaoxiao29/luci-app-adguardhome package/luci-app-ad
 #git clone https://github.com/fw876/helloworld.git -b master package/helloworld
 
 # 移除 openwrt feeds 自带的核心包
-#rm -rf feeds/packages/net/{xray-core,v2ray-core,v2ray-geodata,sing-box}
+rm -rf feeds/packages/net/{xray-core,v2ray-core,v2ray-geodata,sing-box}
 git clone https://github.com/zow2023/openwrt_helloworld package/helloworld
 
 #rm -rf feeds/luci/applications/luci-app-mosdns
@@ -59,8 +59,10 @@ git clone https://github.com/zow2023/openwrt_helloworld package/helloworld
 #rm -rf feeds/packages/utils/v2dat
 
 rm -rf feeds/packages/lang/node
-git clone https://github.com/sbwml/feeds_packages_lang_node-prebuilt -b packages-24.10 feeds/packages/lang/node
-curl -sSL https://raw.githubusercontent.com/chenmozhijin/turboacc/luci/add_turboacc.sh -o add_turboacc.sh && bash add_turboacc.sh
+#git clone https://github.com/sbwml/feeds_packages_lang_node-prebuilt -b packages-24.10 feeds/packages/lang/node
+git clone https://github.com/sbwml/feeds_packages_lang_node-prebuilt -b packages-23.05 feeds/packages/lang/node
+
+#curl -sSL https://raw.githubusercontent.com/chenmozhijin/turboacc/luci/add_turboacc.sh -o add_turboacc.sh && bash add_turboacc.sh
 
 rm -rf feeds/packages/lang/golang
 git clone https://github.com/kenzok8/golang feeds/packages/lang/golang
@@ -71,4 +73,4 @@ git clone https://github.com/kenzok8/golang feeds/packages/lang/golang
 # Modify default IP
 sed -i 's/192.168.1.1/10.0.0.1/g' package/base-files/files/bin/config_generate
 # Modify hostname
-sed -i 's/OpenWrt/E8450/g' package/base-files/files/bin/config_generate
+#sed -i 's/OpenWrt/E8450/g' package/base-files/files/bin/config_generate
