@@ -142,12 +142,12 @@ jobs:
         cd openwrt
         $GITHUB_WORKSPACE/$DIY_P2_SH
 
-    - name: Add libcron package
-      run: |
-        cd openwrt
-        mkdir -p package/libs/libcron && \
-        wget -O package/libs/libcron/Makefile \
-        https://raw.githubusercontent.com/immortalwrt/packages/master/libs/libcron/Makefile
+    #- name: Add libcron package
+     # run: |
+       # cd openwrt
+       # mkdir -p package/libs/libcron && \
+      #  wget -O package/libs/libcron/Makefile \
+      #  https://raw.githubusercontent.com/immortalwrt/packages/master/libs/libcron/Makefile
 
     - name: SSH connection to Actions
       uses: P3TERX/ssh2actions@v1.0.0
