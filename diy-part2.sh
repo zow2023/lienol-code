@@ -41,10 +41,6 @@ git clone https://github.com/xiaoxiao29/luci-app-adguardhome package/luci-app-ad
 #rm -rf feeds/packages/net/chinadns-ng
 #rm -rf feeds/packages/net/xray-core
 
-# git clone https://github.com/QiuSimons/luci-app-daed package/dae
-
-#git clone https://github.com/xiaorouji/openwrt-passwall.git package/passwall/luci
-#git clone https://github.com/xiaorouji/openwrt-passwall-packages.git package/passwall/packages
 
 #git clone https://github.com/xiaorouji/openwrt-passwall.git -b  luci-smartdns-dev package/passwall/luci
 #rm -rf feeds/package/helloworld
@@ -52,15 +48,21 @@ git clone https://github.com/xiaoxiao29/luci-app-adguardhome package/luci-app-ad
 
 # 移除 openwrt feeds 自带的核心包
 rm -rf feeds/packages/net/{xray-core,v2ray-core,v2ray-geodata,sing-box}
-git clone https://github.com/zow2023/openwrt_helloworld package/helloworld
+#git clone https://github.com/zow2023/openwrt_helloworld package/helloworld
+
+git clone https://github.com/QiuSimons/luci-app-daed package/dae
+
+git clone https://github.com/xiaorouji/openwrt-passwall.git package/passwall/luci
+git clone https://github.com/xiaorouji/openwrt-passwall-packages.git package/passwall/packages
 
 #rm -rf feeds/luci/applications/luci-app-mosdns
 #rm -rf feeds/packages/net/{alist,adguardhome,mosdns,xray*,v2ray*,v2ray*,sing*,smartdns}
 #rm -rf feeds/packages/utils/v2dat
 
 rm -rf feeds/packages/lang/node
-#git clone https://github.com/sbwml/feeds_packages_lang_node-prebuilt -b packages-24.10 feeds/packages/lang/node
-git clone https://github.com/sbwml/feeds_packages_lang_node-prebuilt -b packages-23.05 feeds/packages/lang/node
+
+git clone https://github.com/sbwml/feeds_packages_lang_node-prebuilt -b packages-24.10 feeds/packages/lang/node
+#git clone https://github.com/sbwml/feeds_packages_lang_node-prebuilt -b packages-23.05 feeds/packages/lang/node
 
 #curl -sSL https://raw.githubusercontent.com/chenmozhijin/turboacc/luci/add_turboacc.sh -o add_turboacc.sh && bash add_turboacc.sh
 
