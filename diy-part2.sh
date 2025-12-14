@@ -13,7 +13,7 @@
 
 git clone https://github.com/jerrykuku/luci-theme-argon package/luci-theme-argon
 git clone https://github.com/jerrykuku/luci-app-argon-config package/luci-app-argon-config
-git clone https://github.com/x-wrt/com.x-wrt package/x
+#git clone https://github.com/x-wrt/com.x-wrt package/x
 
 #git clone https://github.com/kingyond/luci-app-accesscontrol-plus package/luci-app-accesscontrol-plus
 #git clone https://github.com/kiddin9/luci-app-dnsfilter package/luic-app-dnsfilter
@@ -50,10 +50,11 @@ git clone https://github.com/xiaoxiao29/luci-app-adguardhome package/luci-app-ad
 rm -rf feeds/packages/net/{xray-core,v2ray-core,v2ray-geodata,sing-box}
 #git clone https://github.com/zow2023/openwrt_helloworld package/helloworld
 
-git clone https://github.com/QiuSimons/luci-app-daed package/dae
+git clone https://github.com/QiuSimons/luci-app-dae package/dae
+git clone https://github.com/immortalwrt/homeproxy package/luci-app-homeproxy
 
-git clone https://github.com/xiaorouji/openwrt-passwall.git package/passwall/luci
-git clone https://github.com/xiaorouji/openwrt-passwall-packages.git package/passwall/packages
+#git clone https://github.com/xiaorouji/openwrt-passwall.git package/passwall/luci
+#git clone https://github.com/xiaorouji/openwrt-passwall-packages.git package/passwall/packages
 
 #rm -rf feeds/luci/applications/luci-app-mosdns
 #rm -rf feeds/packages/net/{alist,adguardhome,mosdns,xray*,v2ray*,v2ray*,sing*,smartdns}
@@ -74,4 +75,4 @@ git clone https://github.com/sbwml/packages_lang_golang -b 25.x feeds/packages/l
 # Modify default IP
 sed -i 's/192.168.1.1/10.0.0.1/g' package/base-files/files/bin/config_generate
 # Modify hostname
-#sed -i 's/OpenWrt/E8450/g' package/base-files/files/bin/config_generate
+sed -i 's/OpenWrt/E8450/g' package/base-files/files/bin/config_generate
