@@ -47,7 +47,7 @@ git clone https://github.com/xiaoxiao29/luci-app-adguardhome package/luci-app-ad
 #git clone https://github.com/fw876/helloworld.git -b master package/helloworld
 
 # 移除 openwrt feeds 自带的核心包
-rm -rf feeds/packages/net/{xray-core,v2ray-core,v2ray-geodata,sing-box}
+#rm -rf feeds/packages/net/{xray-core,v2ray-core,v2ray-geodata,sing-box}
 #git clone https://github.com/zow2023/openwrt_helloworld package/helloworld
 
 git clone https://github.com/QiuSimons/luci-app-dae package/dae
