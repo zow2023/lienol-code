@@ -29,7 +29,8 @@ git clone https://github.com/gSpotx2f/luci-app-interfaces-statistics package/luc
 #rm -rf feeds/other/lean/luci-app-turboacc
 # rm -rf feeds/other/lean/vlmcsd
 
-git clone https://github.com/xiaoxiao29/luci-app-adguardhome package/luci-app-adguardhome
+#git clone https://github.com/xiaoxiao29/luci-app-adguardhome package/luci-app-adguardhome
+git clone https://github.com/w9315273/luci-app-adguardhome package/luci-app-adguardhome
 # git clone https://github.com/sbwml/luci-app-filemanager package/luci-app-filemanager
 # git clone https://github.com/sbwml/autocore-arm package/autocore-arm
 
@@ -47,11 +48,11 @@ git clone https://github.com/xiaoxiao29/luci-app-adguardhome package/luci-app-ad
 #git clone https://github.com/fw876/helloworld.git -b master package/helloworld
 
 # 移除 openwrt feeds 自带的核心包
-#rm -rf feeds/packages/net/{xray-core,v2ray-core,v2ray-geodata,sing-box}
-#git clone https://github.com/zow2023/openwrt_helloworld package/helloworld
+rm -rf feeds/packages/net/{adguardhome,xray-core,v2ray-core,v2ray-geodata,sing-box}
+git clone https://github.com/zow2023/openwrt_helloworld package/helloworld
 
-git clone https://github.com/QiuSimons/luci-app-dae package/dae
-git clone https://github.com/immortalwrt/homeproxy package/luci-app-homeproxy
+#git clone https://github.com/QiuSimons/luci-app-dae package/dae
+#git clone https://github.com/immortalwrt/homeproxy package/luci-app-homeproxy
 
 #git clone https://github.com/xiaorouji/openwrt-passwall.git package/passwall/luci
 #git clone https://github.com/xiaorouji/openwrt-passwall-packages.git package/passwall/packages
@@ -61,16 +62,15 @@ git clone https://github.com/immortalwrt/homeproxy package/luci-app-homeproxy
 #rm -rf feeds/packages/utils/v2dat
 
 rm -rf feeds/packages/lang/node
-
 git clone https://github.com/sbwml/feeds_packages_lang_node-prebuilt -b packages-24.10 feeds/packages/lang/node
 #git clone https://github.com/sbwml/feeds_packages_lang_node-prebuilt -b packages-23.05 feeds/packages/lang/node
 
+curl -sSL https://raw.githubusercontent.com/mufeng05/turboacc/main/add_turboacc.sh -o add_turboacc.sh && bash add_turboacc.sh
 #curl -sSL https://raw.githubusercontent.com/chenmozhijin/turboacc/luci/add_turboacc.sh -o add_turboacc.sh && bash add_turboacc.sh
 
 rm -rf feeds/packages/lang/golang
 # git clone https://github.com/kenzok8/golang -b 1.25 feeds/packages/lang/golang
-
-git clone https://github.com/sbwml/packages_lang_golang -b 25.x feeds/packages/lang/golang
+git clone https://github.com/sbwml/packages_lang_golang -b 26.x feeds/packages/lang/golang
 
 # Modify default IP
 sed -i 's/192.168.1.1/10.0.0.1/g' package/base-files/files/bin/config_generate
