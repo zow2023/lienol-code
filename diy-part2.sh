@@ -39,16 +39,8 @@ git clone https://github.com/w9315273/luci-app-adguardhome package/luci-app-adgu
 # git clone https://github.com/muink/openwrt-einat-ebpf.git package/einat-ebpf
 # git clone https://github.com/muink/luci-app-einat.git package/luci-app-einat
 
-#rm -rf feeds/packages/net/chinadns-ng
-#rm -rf feeds/packages/net/xray-core
-
-
-#git clone https://github.com/xiaorouji/openwrt-passwall.git -b  luci-smartdns-dev package/passwall/luci
-#rm -rf feeds/package/helloworld
-#git clone https://github.com/fw876/helloworld.git -b master package/helloworld
-
 # 移除 openwrt feeds 自带的核心包
-rm -rf feeds/packages/net/{adguardhome,xray-core,v2ray-core,v2ray-geodata,sing-box}
+rm -rf feeds/packages/net/{adguardhome,xray-core,v2ray-core,v2ray-geodata,sing-box,shadowsocks-libev}
 git clone https://github.com/zow2023/openwrt_helloworld package/helloworld
 
 #git clone https://github.com/QiuSimons/luci-app-dae package/dae
