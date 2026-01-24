@@ -15,12 +15,13 @@
 #git clone https://github.com/jerrykuku/luci-app-argon-config package/luci-app-argon-config
 #git clone https://github.com/x-wrt/com.x-wrt package/x
 
-#git clone https://github.com/kingyond/luci-app-accesscontrol-plus package/luci-app-accesscontrol-plus
 #git clone https://github.com/kiddin9/luci-app-dnsfilter package/luic-app-dnsfilter
 #git clone https://github.com/animegasan/luci-app-quickstart package/luci-app-quickstart
 
+git clone https://github.com/gaobin89/luci-app-timecontrol package/luci-app-timecontrol
+
 git clone https://github.com/gSpotx2f/luci-app-cpu-status package/luci-app-cpu-status
-git clone https://github.com/gSpotx2f/luci-app-cpu-perf package/luci-app-cpu-perf
+#git clone https://github.com/gSpotx2f/luci-app-cpu-perf package/luci-app-cpu-perf
 git clone https://github.com/muink/luci-app-tn-netports package/luci-app-tn-netports
 git clone https://github.com/gSpotx2f/luci-app-temp-status package/luci-app-temp-status
 git clone https://github.com/gSpotx2f/luci-app-interfaces-statistics package/luci-app-interfaces-statistics
@@ -34,7 +35,6 @@ git clone https://github.com/w9315273/luci-app-adguardhome package/luci-app-adgu
 # git clone https://github.com/sbwml/luci-app-filemanager package/luci-app-filemanager
 # git clone https://github.com/sbwml/autocore-arm package/autocore-arm
 
-# git clone https://github.com/sirpdboy/luci-app-parentcontrol package/luci-app-parentcontrol
 
 # git clone https://github.com/muink/openwrt-einat-ebpf.git package/einat-ebpf
 # git clone https://github.com/muink/luci-app-einat.git package/luci-app-einat
